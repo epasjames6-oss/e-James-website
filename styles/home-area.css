@@ -1,0 +1,123 @@
+.home-space {
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  width: 97%;
+  margin-left: 20px;
+}
+
+.home-space:hover {
+  border-radius: 5%;
+  border-color: #ffd700;
+  box-shadow: inset 5px 0px 40px #ffd700;
+  transition: .5s;
+}
+
+.home-content {
+  padding-top: -5px; 
+  margin-left: 0;
+  color: white;
+  width: 450px;
+  height: 30%;
+  font-family: poppins, sans-serif;
+  font-size: 22px;
+  border-radius: 10%;
+  padding: 30px;
+  margin-top: -10px;
+  box-shadow: 10px 10px 50px aqua, 10px 10px 20px aqua, 10px 10px 50px aqua, 10px 10px 10px aqua;
+}
+
+h3 {
+  margin-left: 80px;
+}
+
+.h1 {
+  color: #ffd700;
+}
+
+.h3a {
+  color: aqua;
+  margin-left: 0;
+}
+
+.paragraph-home {
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.image-with-effect,
+.image-with-effect-1 {
+  width: 350px;
+  border-radius: 50%;
+  margin-left: 40%;
+  box-shadow: 10px 5px 50px #ffd700, 0px 5px 50px #ffd700, 0px 5px 10px #ffd700, 10px 5px 15px #ffd700, 0px 5px 15px #ffd700;
+}
+
+
+.image-with-effect:hover,
+.image-with-effect-1:hover {
+  box-shadow: 10px 10px 50px aqua, 10px 10px 20px aqua, 10px 10px 50px aqua, 10px 10px 50px aqua;
+  transition: 3s;
+}
+
+.mam-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  background-color: aqua;
+  font-family: Roboto, Arial;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 28px;
+  color: rgb(0, 0, 82);
+  width: 130px;
+  margin-left: 120px;
+  margin-top: 50px;
+  box-shadow: 0 0 5px aqua, 0 0 25px aqua, 0 0 50px aqua, 0 0 400px aqua;
+}
+
+.mam-box:active {
+  background-color: #ffd700;
+  box-shadow: inset 25px 0px #ffd700, 0 0 20px #ffd700, 0 0 100px #ffd700, 0 0 400px #ffd700;
+  transition: 1s;
+}
+
+.mam:hover {
+  box-shadow: 0 0 5px aqua, 0 0 25px aqua, 0 0 50px aqua, 0 0 400px aqua;
+  border-radius: 28px;
+  transition: .5s;
+}
+
+.mam:active {
+  color: #ffd700;
+  box-shadow: inset 10px 25px 20px #ffd700, 0 0 20px #ffd700, 0 0 50px #ffd700, 0 0 400px #ffd700;
+}
+
+.home-social-media a {
+  padding: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border-style: solid;
+  border-color: aqua;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.home-social-media a:hover {
+  background-color: aqua;
+  box-shadow: 0 0 5px aqua, 0 0 25px aqua, 0 0 50px aqua, 0 0 400px aqua;
+  transition: .5s;
+}
+
+
+
+

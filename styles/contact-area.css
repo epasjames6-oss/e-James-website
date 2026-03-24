@@ -1,0 +1,135 @@
+.contact-area {
+  margin-top: 70px;
+  width: 100%;
+}
+
+.contact-space {
+  width: 45%;
+  margin-left: 40px;
+  box-shadow: 5px 0px 20px navy;
+  padding: 15px 70px 30px 10px;
+  border-radius: 15px;
+}
+
+.information-space {
+  box-shadow: 5px 0px 20px navy;
+  padding: 20px 5px 25px 15px;
+  border-radius: 10px;
+}
+
+.h2-contact 
+ {
+  font-family: Roboto, Arial;
+  color: aqua;
+  text-align: center;
+  margin-top: 10px;
+ }
+
+ .paragraph-contact {
+  color: rgb(185, 181, 181);
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 22px;
+ }
+
+ .paragraph-contact:hover {
+   box-shadow: inset 300px 20px 100px navy;
+   margin-left: 50px;
+   color: white;
+   padding: 10px;
+   border-radius: 15px;
+   transition: 3s;
+   width: 100%;
+ }
+
+ .email-paragraph {
+  font-size: 14px;
+  color: #d8125b;
+  box-shadow: 5px 0px 20px navy;
+  width: 24%;
+  border-radius: 10px;
+  margin-top: 20px;
+ }
+
+ .phone-contacts {
+  font-size: 14px;
+  margin-top: 20px;
+ }
+
+ .phone-contacts:hover {
+   width: 90px;
+   box-shadow: inset 5px 0px 20px navy;
+   border-radius: 30px;
+   text-align: center;
+   padding: 5px;
+   transition: .5s;
+ }
+
+ .information-space {
+   margin-left: 770px;
+   margin-top: -340px;
+   width:40%;
+   z-index: 100;
+ }
+
+ .e-name,
+ .e-email,
+ .e-subject {
+   width: 95%;
+   height: 35px;
+   margin-bottom: 5px;
+   border-radius: 6px;
+   border-style: none;
+   padding-left: 12px;
+   font-size: 15px;
+   box-shadow: inset 5px 0px 20px gray;
+ }
+ 
+ .e-message {
+   width: 95%;
+   margin-bottom: 5px;
+   border-radius: 6px;
+   border-style: none;
+   padding-left: 12px;
+   font-size: 15px;
+   padding-bottom: 130px;
+   padding-top: 12px;
+   box-shadow: inset 5px 0px 20px gray;
+ }
+
+ .e-name::placeholder,
+ .e-email::placeholder,
+ .e-subject::placeholder,
+ .e-message::placeholder {
+   font-size: 15px;
+ }
+
+ .submit {
+   color: rgb(0, 32, 59);
+   background-color: aqua;
+   text-align: center;
+   font-family: Roboto, Arial;
+   font-size: 18px;
+   font-weight: 600;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   width: 95%;
+   border-radius: 15px;
+   margin-top: 10px;
+   text-decoration: none;
+   box-shadow: 5px 0px 50px aqua;
+ }
+
+ .submit:hover {
+   color: black;
+   background-color: #ffd700;
+   box-shadow: 5px 0px 50px #ffd700;
+   transition: .5s;
+ }
+
+ .submit:active {
+   color: black;
+   background-color: aqua;
+   box-shadow: 5px 0px 50px aqua;
+   transition: .5s;
+ }

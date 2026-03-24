@@ -1,0 +1,168 @@
+.skills-space {
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+  
+}
+
+.h1-skills {
+  margin-top: -70px;
+  margin-left: 600px;
+
+}
+
+p,.h1-skills {
+  font-family: Roboto, Arial;
+  color: white;
+}
+.p-tech-skills,
+.p-prof-skills {
+  margin-top: -420px;
+  margin-left: 110px;
+}
+
+.skills-left-side {
+  width: 400px;
+  height: 350px;
+  display: inline-flex;
+  align-items: center;
+  box-shadow: inset 5px 0px 20px yellowgreen;
+  margin-left: -500px;
+}
+
+.skills-right-side {
+  width: 380px;
+  height: 350px;
+  margin-left: 80px;
+  display: inline-flex;
+  align-items: center;
+  box-shadow: inset 5px 0px 20px yellowgreen;
+}
+
+.professional-grid {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+} 
+
+
+.teamwork-percentage,
+.communication-percentage,
+.creativity-percentage,
+.problem-solving-percentage {
+  font-family: Roboto, Arial;
+  color: aqua;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: #ffd700;
+  padding: 20px 14px;
+  border-top: black;
+  border-bottom: black;
+  display: inline-flex;
+}
+
+.teamwork-container {
+  margin-top: -20px;
+  margin-right: 60px;
+}
+
+.communication-container {
+  margin-top: 120px;
+  margin-left: -190px;
+}
+
+.creativity-container {
+  margin-top: -20px;
+  margin-right: 58px;
+}
+
+.problem-solving-container {
+  margin-top: 120px;
+  margin-left: -170px;
+}
+
+.teamwork-percentage:hover,
+.communication-percentage:hover,
+.creativity-percentage:hover,
+.problem-solving-percentage:hover
+{
+  box-shadow: inset 5px 0px 20px #ffd700;
+  color: #ffd700;
+  transition: .5s;
+}
+
+.teamwork,
+.communication,
+.creativity,
+.problem-solving
+{
+  font-family: Roboto, Arial;
+  color: white;
+  font-size: 16px;
+  margin-right: 50px;
+}
+
+.skills-left-side,
+.skills-right-side
+{
+
+  font-weight: 700;
+  font-size: 20px;
+
+}
+
+.skills-percentage {
+  
+}
+
+.html-language,
+.css-language,
+.python-language,
+.javascript-language {
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  letter-spacing: .5px;
+  font-weight: 600;
+  margin-top: 45px;
+  margin-left: -200px;
+  margin-bottom: 40px;
+
+}
+
+.html-horizontal-line,
+.css-horizontal-line,
+.python-horizontal-line,
+.javascript-horizontal-line {
+  border-top: 4px solid aqua;
+  border-radius: 5px;
+  
+}
+
+.html-horizontal-line {
+  width: 270px;
+}
+
+.css-horizontal-line {
+  width: 210px;
+}
+
+.python-horizontal-line {
+  width: 150px;
+}
+
+.javascript-horizontal-line {
+  width: 120px;
+}
+
+.professional-grid {
+  margin-left: -180px;
+}
+
+.html-icon,
+.css-icon,
+.python-icon,
+.javascript-icon {
+  width: 14px;
+  margin-right: 3px;
+}
